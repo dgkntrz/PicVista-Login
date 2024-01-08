@@ -1,7 +1,7 @@
-package com.dokanreviews.Login.controller;
+package com.picvista.Login.controller;
 
-import com.dokanreviews.Login.exceptions.UserNotValidException;
-import com.dokanreviews.Login.service.UserManageService;
+import com.picvista.Login.exceptions.UserNotValidException;
+import com.picvista.Login.service.UserManageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

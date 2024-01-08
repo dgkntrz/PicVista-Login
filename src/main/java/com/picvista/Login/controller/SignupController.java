@@ -1,12 +1,10 @@
-package com.dokanreviews.Login.controller;
+package com.picvista.Login.controller;
 
-import com.dokanreviews.Login.exceptions.GenericException;
-import com.dokanreviews.Login.exceptions.UsernameAlreadyExistsException;
-import com.dokanreviews.Login.model.UserDTO;
-import com.dokanreviews.Login.service.SignUpService;
+import com.picvista.Login.exceptions.GenericException;
+import com.picvista.Login.model.UserDTO;
+import com.picvista.Login.service.SignUpService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import com.dokanreviews.Login.model.User;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

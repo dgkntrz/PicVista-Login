@@ -1,4 +1,4 @@
-package com.dokanreviews.Login.exceptions;
+package com.picvista.Login.exceptions;
 
 public class UserNotValidException extends GenericException {
 

@@ -1,16 +1,14 @@
-package com.dokanreviews.Login.service;
+package com.picvista.Login.service;
 
-import com.dokanreviews.Login.exceptions.GenericException;
-import com.dokanreviews.Login.exceptions.UsernameAlreadyExistsException;
-import com.dokanreviews.Login.model.User;
-import com.dokanreviews.Login.model.UserDTO;
-import com.dokanreviews.Login.repository.UserRepository;
-import com.dokanreviews.Login.utils.Constants;
-import com.dokanreviews.Login.utils.UserMapper;
-import com.mongodb.MongoWriteException;
+import com.picvista.Login.exceptions.GenericException;
+import com.picvista.Login.exceptions.UsernameAlreadyExistsException;
+import com.picvista.Login.model.User;
+import com.picvista.Login.model.UserDTO;
+import com.picvista.Login.repository.UserRepository;
+import com.picvista.Login.utils.Constants;
+import com.picvista.Login.utils.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DuplicateKeyException;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

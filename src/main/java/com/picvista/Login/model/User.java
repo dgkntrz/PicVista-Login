@@ -1,4 +1,4 @@
-package com.dokanreviews.Login.model;
+package com.picvista.Login.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -20,13 +20,15 @@ public class User {
     @Indexed(unique = true)
     private String userName;
     private String password;
+    private String email;
     private String signUpDate;
 
 
-    public User(String userName, String password, String signUpDate){
+    public User(String userName, String password, String email, String signUpDate){
         super();
         this.userName = userName;
         this.password = password;
+        this.email = email;
         this.signUpDate = signUpDate;
     }
 

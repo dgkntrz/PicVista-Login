@@ -1,6 +1,6 @@
-package com.dokanreviews.Login;
+package com.picvista.Login;
 
-import com.dokanreviews.Login.repository.UserRepository;
+import com.picvista.Login.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

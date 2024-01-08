@@ -1,4 +1,4 @@
-package com.dokanreviews.Login.exceptions;
+package com.picvista.Login.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;

@@ -1,4 +1,4 @@
-package com.dokanreviews.Login.exceptions;
+package com.picvista.Login.exceptions;
 
 public class GenericException extends Exception{
 

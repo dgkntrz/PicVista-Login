@@ -1,6 +1,6 @@
-package com.dokanreviews.Login.repository;
+package com.picvista.Login.repository;
 
-import com.dokanreviews.Login.model.User;
+import com.picvista.Login.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

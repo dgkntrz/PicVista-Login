@@ -1,4 +1,4 @@
-package com.dokanreviews.Login;
+package com.picvista.Login;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

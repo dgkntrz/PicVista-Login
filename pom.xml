@@ -8,11 +8,11 @@
 		<version>3.2.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.dokanreviews</groupId>
+	<groupId>com.picvista</groupId>
 	<artifactId>Login</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Login</name>
-	<description>Review Application Login System</description>
+	<description>PicVista Login System</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
