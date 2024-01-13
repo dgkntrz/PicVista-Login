@@ -25,8 +25,8 @@ public class UserManageController {
         return ResponseEntity.ok(userId);
     }
 
-    @DeleteMapping
-    public ResponseEntity<String> deleteAccount(@RequestParam String userName) throws UserNotValidException {
+    @DeleteMapping("/{userName}")
+    public ResponseEntity<String> deleteAccount(@PathVariable String userName) throws UserNotValidException {
         String userId = userManageService.deleteUser(userName);
         return ResponseEntity.ok(userId);
     }
