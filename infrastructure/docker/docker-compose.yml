@@ -6,6 +6,10 @@ services:
       - '27017:27017'
     volumes:
       - dbdata6:/data/db
+  front:
+    image: turkuazsengul/front:latest
+    ports:
+      - '3000:3000'
   login:
     image: turkuazsengul/login:latest
     ports:
